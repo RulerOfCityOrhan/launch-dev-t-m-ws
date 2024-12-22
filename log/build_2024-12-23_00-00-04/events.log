@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000681] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000794] (-) JobUnselected: {'identifier': 'triangle'}
+[0.001028] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001104] (cift_sayi) JobQueued: {'identifier': 'cift_sayi', 'dependencies': OrderedDict()}
+[0.001184] (cift_sayi) JobStarted: {'identifier': 'cift_sayi'}
+[0.099208] (-) TimerEvent: {}
+[0.199760] (-) TimerEvent: {}
+[0.300166] (-) TimerEvent: {}
+[0.400530] (-) TimerEvent: {}
+[0.501039] (-) TimerEvent: {}
+[0.601462] (-) TimerEvent: {}
+[0.701848] (-) TimerEvent: {}
+[0.802202] (-) TimerEvent: {}
+[0.902531] (-) TimerEvent: {}
+[0.976501] (cift_sayi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cift_sayi', 'build', '--build-base', '/home/orhan/ros2_ws/build/cift_sayi/build', 'install', '--record', '/home/orhan/ros2_ws/build/cift_sayi/install.log', '--install-scripts', '$base/lib/cift_sayi', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orhan/ros2_ws/src/cift_sayi', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'tr:en', 'USER': 'orhan', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1796', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/orhan/udemy_ros/install/simple_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/orhan', 'OLDPWD': '/home/orhan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1687', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3811', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/orhan/udemy_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orhan', 'JOURNAL_STREAM': '8:48118', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orhan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/orhan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/orhan-Inspiron-5548:@/tmp/.ICE-unix/1834,unix/orhan-Inspiron-5548:/tmp/.ICE-unix/1834', 'INVOCATION_ID': '9d6e4be164bc45c4969950474ae1c1e4', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'tr_TR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/bringup:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:60ba7eb5-1e08-43c7-96d4-ccc0232a86c9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/orhan/ros2_ws/build/cift_sayi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orhan/ros2_ws/build/cift_sayi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/rand_two_int/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/simple_interfaces/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/py_deneme/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/add_two_ints_srv/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/bringup'}, 'shell': False}
+[1.002696] (-) TimerEvent: {}
+[1.103228] (-) TimerEvent: {}
+[1.203641] (-) TimerEvent: {}
+[1.304011] (-) TimerEvent: {}
+[1.319067] (cift_sayi) StdoutLine: {'line': b'running egg_info\n'}
+[1.320115] (cift_sayi) StdoutLine: {'line': b'writing ../../build/cift_sayi/cift_sayi.egg-info/PKG-INFO\n'}
+[1.320487] (cift_sayi) StdoutLine: {'line': b'writing dependency_links to ../../build/cift_sayi/cift_sayi.egg-info/dependency_links.txt\n'}
+[1.320817] (cift_sayi) StdoutLine: {'line': b'writing entry points to ../../build/cift_sayi/cift_sayi.egg-info/entry_points.txt\n'}
+[1.321085] (cift_sayi) StdoutLine: {'line': b'writing requirements to ../../build/cift_sayi/cift_sayi.egg-info/requires.txt\n'}
+[1.321340] (cift_sayi) StdoutLine: {'line': b'writing top-level names to ../../build/cift_sayi/cift_sayi.egg-info/top_level.txt\n'}
+[1.370429] (cift_sayi) StdoutLine: {'line': b"reading manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'\n"}
+[1.371613] (cift_sayi) StdoutLine: {'line': b"writing manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'\n"}
+[1.371981] (cift_sayi) StdoutLine: {'line': b'running build\n'}
+[1.372184] (cift_sayi) StdoutLine: {'line': b'running build_py\n'}
+[1.372428] (cift_sayi) StdoutLine: {'line': b'running install\n'}
+[1.373493] (cift_sayi) StdoutLine: {'line': b'running install_lib\n'}
+[1.375489] (cift_sayi) StdoutLine: {'line': b'running install_data\n'}
+[1.375845] (cift_sayi) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.378332] (cift_sayi) StdoutLine: {'line': b"removing '/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.378732] (cift_sayi) StdoutLine: {'line': b'Copying ../../build/cift_sayi/cift_sayi.egg-info to /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info\n'}
+[1.379972] (cift_sayi) StdoutLine: {'line': b'running install_scripts\n'}
+[1.401480] (cift_sayi) StdoutLine: {'line': b'Installing listener script to /home/orhan/ros2_ws/install/cift_sayi/lib/cift_sayi\n'}
+[1.401896] (cift_sayi) StdoutLine: {'line': b'Installing talker script to /home/orhan/ros2_ws/install/cift_sayi/lib/cift_sayi\n'}
+[1.402280] (cift_sayi) StdoutLine: {'line': b"writing list of installed files to '/home/orhan/ros2_ws/build/cift_sayi/install.log'\n"}
+[1.404128] (-) TimerEvent: {}
+[1.430912] (cift_sayi) CommandEnded: {'returncode': 0}
+[1.451211] (cift_sayi) JobEnded: {'identifier': 'cift_sayi', 'rc': 0}
+[1.452473] (-) EventReactorShutdown: {}

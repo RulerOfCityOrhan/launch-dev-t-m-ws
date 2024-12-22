@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (-) JobUnselected: {'identifier': 'cift_sayi'}
+[0.000343] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000385] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000446] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000490] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000531] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000638] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000689] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000715] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000739] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000763] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000788] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000812] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000835] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000891] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000916] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000940] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000963] (-) JobUnselected: {'identifier': 'first_package'}
+[0.000986] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001022] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001054] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.098906] (-) TimerEvent: {}
+[0.199366] (-) TimerEvent: {}
+[0.299697] (-) TimerEvent: {}
+[0.400089] (-) TimerEvent: {}
+[0.500517] (-) TimerEvent: {}
+[0.600995] (-) TimerEvent: {}
+[0.701335] (-) TimerEvent: {}
+[0.801668] (-) TimerEvent: {}
+[0.902011] (-) TimerEvent: {}
+[0.955764] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/orhan/ros2_ws/build/py_srvcli/build', 'install', '--record', '/home/orhan/ros2_ws/build/py_srvcli/install.log', '--install-scripts', '$base/lib/py_srvcli', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orhan/ros2_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'tr:en', 'USER': 'orhan', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '1726', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/orhan', 'OLDPWD': '/home/orhan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1617', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orhan', 'JOURNAL_STREAM': '8:46738', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'orhan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/orhan-Inspiron-5548:@/tmp/.ICE-unix/1766,unix/orhan-Inspiron-5548:/tmp/.ICE-unix/1766', 'INVOCATION_ID': '51e3ca836c7f492da0212c064045424a', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7851b315_806d_46dd_bd0e_6f733a3b4701', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'tr_TR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/orhan/ros2_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/orhan/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.002175] (-) TimerEvent: {}
+[1.102638] (-) TimerEvent: {}
+[1.203009] (-) TimerEvent: {}
+[1.255226] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.256127] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.256448] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.257188] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.257557] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.257876] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.258081] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.264260] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.303121] (-) TimerEvent: {}
+[1.309804] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.310845] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.311264] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.311585] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.311819] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/build/py_srvcli/build\n'}
+[1.312063] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/build/py_srvcli/build/lib\n'}
+[1.312339] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.312573] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.312881] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.313171] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.313335] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.314018] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.315263] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.315532] (py_srvcli) StdoutLine: {'line': b'copying /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.315723] (py_srvcli) StdoutLine: {'line': b'copying /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.315843] (py_srvcli) StdoutLine: {'line': b'copying /home/orhan/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.316653] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[1.318611] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[1.319182] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc\n'}
+[1.319546] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.319901] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/install/py_srvcli/share/ament_index\n'}
+[1.320192] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.320435] (py_srvcli) StdoutLine: {'line': b'creating /home/orhan/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.320616] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/orhan/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.320805] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/orhan/ros2_ws/install/py_srvcli/share/py_srvcli\n'}
+[1.320989] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.322966] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/orhan/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[1.324346] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.348664] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/orhan/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.349051] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/orhan/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.349469] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/orhan/ros2_ws/build/py_srvcli/install.log'\n"}
+[1.380974] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.403510] (-) TimerEvent: {}
+[1.404695] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.406373] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[1.969s] Invoking command in '/home/orhan/ros2_ws/src/iki': PYTHONPATH=/home/orhan/ros2_ws/build/iki/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iki build --build-base /home/orhan/ros2_ws/build/iki/build install --record /home/orhan/ros2_ws/build/iki/install.log --install-scripts $base/lib/iki --single-version-externally-managed install_data
+[2.419s] running egg_info
+[2.420s] creating ../../build/iki/iki.egg-info
+[2.420s] writing ../../build/iki/iki.egg-info/PKG-INFO
+[2.421s] writing dependency_links to ../../build/iki/iki.egg-info/dependency_links.txt
+[2.421s] writing entry points to ../../build/iki/iki.egg-info/entry_points.txt
+[2.421s] writing requirements to ../../build/iki/iki.egg-info/requires.txt
+[2.421s] writing top-level names to ../../build/iki/iki.egg-info/top_level.txt
+[2.424s] writing manifest file '../../build/iki/iki.egg-info/SOURCES.txt'
+[2.477s] reading manifest file '../../build/iki/iki.egg-info/SOURCES.txt'
+[2.479s] writing manifest file '../../build/iki/iki.egg-info/SOURCES.txt'
+[2.479s] running build
+[2.480s] running build_py
+[2.480s] creating /home/orhan/ros2_ws/build/iki/build
+[2.480s] creating /home/orhan/ros2_ws/build/iki/build/lib
+[2.480s] creating /home/orhan/ros2_ws/build/iki/build/lib/iki
+[2.481s] copying iki/__init__.py -> /home/orhan/ros2_ws/build/iki/build/lib/iki
+[2.481s] running install
+[2.481s] running install_lib
+[2.483s] creating /home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages/iki
+[2.483s] copying /home/orhan/ros2_ws/build/iki/build/lib/iki/__init__.py -> /home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages/iki
+[2.484s] byte-compiling /home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages/iki/__init__.py to __init__.cpython-38.pyc
+[2.486s] running install_data
+[2.486s] creating /home/orhan/ros2_ws/install/iki/share/ament_index
+[2.487s] creating /home/orhan/ros2_ws/install/iki/share/ament_index/resource_index
+[2.487s] creating /home/orhan/ros2_ws/install/iki/share/ament_index/resource_index/packages
+[2.487s] copying resource/iki -> /home/orhan/ros2_ws/install/iki/share/ament_index/resource_index/packages
+[2.487s] copying package.xml -> /home/orhan/ros2_ws/install/iki/share/iki
+[2.488s] running install_egg_info
+[2.490s] Copying ../../build/iki/iki.egg-info to /home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages/iki-0.0.0-py3.8.egg-info
+[2.491s] running install_scripts
+[2.520s] writing list of installed files to '/home/orhan/ros2_ws/build/iki/install.log'
+[2.559s] Invoked command in '/home/orhan/ros2_ws/src/iki' returned '0': PYTHONPATH=/home/orhan/ros2_ws/build/iki/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/iki/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iki build --build-base /home/orhan/ros2_ws/build/iki/build install --record /home/orhan/ros2_ws/build/iki/install.log --install-scripts $base/lib/iki --single-version-externally-managed install_data

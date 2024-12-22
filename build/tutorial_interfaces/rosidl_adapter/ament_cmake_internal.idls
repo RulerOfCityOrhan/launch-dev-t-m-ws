@@ -1,0 +1,3 @@
+/home/orhan/ros2_ws/build/tutorial_interfaces/rosidl_adapter/ament_cmake_internal:msg/Num.idl
+/home/orhan/ros2_ws/build/tutorial_interfaces/rosidl_adapter/ament_cmake_internal:msg/Sphere.idl
+/home/orhan/ros2_ws/build/tutorial_interfaces/rosidl_adapter/ament_cmake_internal:srv/AddThreeInts.idl

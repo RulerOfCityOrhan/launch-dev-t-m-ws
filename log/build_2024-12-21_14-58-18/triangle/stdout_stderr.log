@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/triangle/triangle.egg-info
+writing ../../build/triangle/triangle.egg-info/PKG-INFO
+writing dependency_links to ../../build/triangle/triangle.egg-info/dependency_links.txt
+writing entry points to ../../build/triangle/triangle.egg-info/entry_points.txt
+writing requirements to ../../build/triangle/triangle.egg-info/requires.txt
+writing top-level names to ../../build/triangle/triangle.egg-info/top_level.txt
+writing manifest file '../../build/triangle/triangle.egg-info/SOURCES.txt'
+reading manifest file '../../build/triangle/triangle.egg-info/SOURCES.txt'
+writing manifest file '../../build/triangle/triangle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orhan/ros2_ws/build/triangle/build
+creating /home/orhan/ros2_ws/build/triangle/build/lib
+creating /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+copying triangle/tri_client.py -> /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+copying triangle/tri_service.py -> /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+copying triangle/__init__.py -> /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+running install
+running install_lib
+creating /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+copying /home/orhan/ros2_ws/build/triangle/build/lib/triangle/tri_client.py -> /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+copying /home/orhan/ros2_ws/build/triangle/build/lib/triangle/tri_service.py -> /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+copying /home/orhan/ros2_ws/build/triangle/build/lib/triangle/__init__.py -> /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+byte-compiling /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle/tri_client.py to tri_client.cpython-38.pyc
+byte-compiling /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle/tri_service.py to tri_service.cpython-38.pyc
+byte-compiling /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/orhan/ros2_ws/install/triangle/share/ament_index
+creating /home/orhan/ros2_ws/install/triangle/share/ament_index/resource_index
+creating /home/orhan/ros2_ws/install/triangle/share/ament_index/resource_index/packages
+copying resource/triangle -> /home/orhan/ros2_ws/install/triangle/share/ament_index/resource_index/packages
+copying package.xml -> /home/orhan/ros2_ws/install/triangle/share/triangle
+running install_egg_info
+Copying ../../build/triangle/triangle.egg-info to /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle-0.0.0-py3.8.egg-info
+running install_scripts
+Installing tricli script to /home/orhan/ros2_ws/install/triangle/lib/triangle
+Installing trisrv script to /home/orhan/ros2_ws/install/triangle/lib/triangle
+writing list of installed files to '/home/orhan/ros2_ws/build/triangle/install.log'

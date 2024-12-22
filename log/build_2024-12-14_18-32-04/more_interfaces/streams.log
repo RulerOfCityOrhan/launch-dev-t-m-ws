@@ -1,0 +1,34 @@
+[0.023s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.160s] [  3%] Built target more_interfaces__cpp
+[0.174s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.203s] [ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.204s] [ 24%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.211s] [ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.229s] [ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.246s] [ 51%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.258s] [ 60%] Built target more_interfaces__rosidl_typesupport_c
+[0.278s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.307s] [ 69%] Built target more_interfaces
+[0.339s] [ 72%] Built target more_interfaces__py
+[0.378s] [ 78%] Built target more_interfaces__python
+[0.399s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.399s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[0.401s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.454s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.458s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.469s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[0.592s] [01m[K/home/orhan/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+[0.592s]     5 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+[0.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.593s] compilation terminated.
+[0.599s] make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[0.599s] make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/publish_address_book.dir/all] Error 2
+[0.599s] make[1]: *** Waiting for unfinished jobs....
+[0.679s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.682s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.684s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.755s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.759s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.803s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.804s] make: *** [Makefile:141: all] Error 2
+[0.807s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4

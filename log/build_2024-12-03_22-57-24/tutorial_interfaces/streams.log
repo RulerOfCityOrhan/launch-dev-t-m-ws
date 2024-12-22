@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/home/orhan/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/tutorial_interfaces -- -j4 -l4
+[0.051s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.407s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.407s]   if given arguments:
+[0.407s] 
+[0.408s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[0.408s] 
+[0.408s]   Unknown arguments specified
+[0.408s] Call Stack (most recent call first):
+[0.408s]   /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[0.409s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[0.409s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.409s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[0.409s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.409s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[0.409s]   /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.410s]   /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+[0.410s]   /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.410s]   /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+[0.410s]   CMakeLists.txt:1 (find_package)
+[0.410s] 
+[0.410s] 
+[0.410s] -- Configuring incomplete, errors occurred!
+[0.410s] See also "/home/orhan/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.411s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.414s] Invoked command in '/home/orhan/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/tutorial_interfaces -- -j4 -l4

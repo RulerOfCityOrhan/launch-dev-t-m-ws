@@ -1,0 +1,56 @@
+[0.058s] Invoking command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/orhan/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.132s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.668s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.685s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.375s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.465s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.866s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.968s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.170s] -- Configured cppcheck include dirs: 
+[2.170s] -- Configured cppcheck exclude dirs and/or files: 
+[2.172s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.172s] -- Configured cpplint exclude dirs and/or files: 
+[2.173s] -- Added test 'lint_cmake' to check CMake code style
+[2.176s] -- Added test 'uncrustify' to check C / C++ code style
+[2.176s] -- Configured uncrustify additional arguments: 
+[2.177s] -- Added test 'xmllint' to check XML markup files
+[2.182s] -- Configuring done
+[2.253s] -- Generating done
+[2.257s] -- Build files have been written to: /home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client
+[2.271s] Invoked command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/orhan/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client
+[2.273s] Invoking command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[2.461s] [ 25%] Built target action_client_not_composable
+[2.472s] [ 50%] Built target action_client_not_composable_with_feedback
+[2.479s] [ 75%] Built target action_client_not_composable_with_cancel
+[2.486s] [100%] Built target action_client_member_functions
+[2.526s] Invoked command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[2.627s] Invoking command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client
+[2.644s] -- Install configuration: ""
+[2.645s] -- Execute custom install script
+[2.648s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[2.649s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[2.649s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[2.649s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[2.650s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[2.650s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[2.651s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[2.652s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[2.652s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[2.652s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[2.653s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[2.653s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[2.654s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[2.654s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[2.656s] -- Symlinking: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[2.684s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[2.685s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[2.685s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[2.686s] -- Up-to-date symlink: /home/orhan/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[2.704s] Invoked command in '/home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/orhan/ros2_ws/build/examples_rclcpp_minimal_action_client

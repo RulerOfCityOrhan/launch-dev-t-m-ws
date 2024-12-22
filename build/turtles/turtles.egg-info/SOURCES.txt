@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtles/turtles.egg-info/PKG-INFO
+../../build/turtles/turtles.egg-info/SOURCES.txt
+../../build/turtles/turtles.egg-info/dependency_links.txt
+../../build/turtles/turtles.egg-info/entry_points.txt
+../../build/turtles/turtles.egg-info/requires.txt
+../../build/turtles/turtles.egg-info/top_level.txt
+../../build/turtles/turtles.egg-info/zip-safe
+resource/turtles
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+turtles/__init__.py
+turtles/turtles.py

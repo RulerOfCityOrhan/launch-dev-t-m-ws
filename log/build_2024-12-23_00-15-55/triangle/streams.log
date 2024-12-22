@@ -1,0 +1,29 @@
+[2.052s] Invoking command in '/home/orhan/ros2_ws/src/triangle': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/build/triangle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/triangle build --build-base /home/orhan/ros2_ws/build/triangle/build install --record /home/orhan/ros2_ws/build/triangle/install.log --install-scripts $base/lib/triangle --single-version-externally-managed install_data
+[2.752s] running egg_info
+[2.754s] writing ../../build/triangle/triangle.egg-info/PKG-INFO
+[2.754s] writing dependency_links to ../../build/triangle/triangle.egg-info/dependency_links.txt
+[2.755s] writing entry points to ../../build/triangle/triangle.egg-info/entry_points.txt
+[2.755s] writing requirements to ../../build/triangle/triangle.egg-info/requires.txt
+[2.756s] writing top-level names to ../../build/triangle/triangle.egg-info/top_level.txt
+[2.833s] reading manifest file '../../build/triangle/triangle.egg-info/SOURCES.txt'
+[2.838s] writing manifest file '../../build/triangle/triangle.egg-info/SOURCES.txt'
+[2.840s] running build
+[2.841s] running build_py
+[2.842s] copying triangle/tri_all.py -> /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+[2.843s] copying triangle/tri_client.py -> /home/orhan/ros2_ws/build/triangle/build/lib/triangle
+[2.843s] running install
+[2.845s] running install_lib
+[2.847s] copying /home/orhan/ros2_ws/build/triangle/build/lib/triangle/tri_all.py -> /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+[2.847s] copying /home/orhan/ros2_ws/build/triangle/build/lib/triangle/tri_client.py -> /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle
+[2.849s] byte-compiling /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle/tri_all.py to tri_all.cpython-38.pyc
+[2.854s] byte-compiling /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle/tri_client.py to tri_client.cpython-38.pyc
+[2.855s] running install_data
+[2.856s] running install_egg_info
+[2.861s] removing '/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle-0.0.0-py3.8.egg-info' (and everything under it)
+[2.862s] Copying ../../build/triangle/triangle.egg-info to /home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages/triangle-0.0.0-py3.8.egg-info
+[2.863s] running install_scripts
+[2.905s] Installing triall script to /home/orhan/ros2_ws/install/triangle/lib/triangle
+[2.906s] Installing tricli script to /home/orhan/ros2_ws/install/triangle/lib/triangle
+[2.907s] Installing trisrv script to /home/orhan/ros2_ws/install/triangle/lib/triangle
+[2.910s] writing list of installed files to '/home/orhan/ros2_ws/build/triangle/install.log'
+[2.981s] Invoked command in '/home/orhan/ros2_ws/src/triangle' returned '0': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/build/triangle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/triangle build --build-base /home/orhan/ros2_ws/build/triangle/build install --record /home/orhan/ros2_ws/build/triangle/install.log --install-scripts $base/lib/triangle --single-version-externally-managed install_data

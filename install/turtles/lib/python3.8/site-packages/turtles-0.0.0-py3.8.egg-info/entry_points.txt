@@ -1,0 +1,3 @@
+[console_scripts]
+turtles = turtles.turtles:main
+

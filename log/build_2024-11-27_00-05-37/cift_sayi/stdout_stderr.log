@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/cift_sayi/cift_sayi.egg-info/PKG-INFO
+writing dependency_links to ../../build/cift_sayi/cift_sayi.egg-info/dependency_links.txt
+writing entry points to ../../build/cift_sayi/cift_sayi.egg-info/entry_points.txt
+writing requirements to ../../build/cift_sayi/cift_sayi.egg-info/requires.txt
+writing top-level names to ../../build/cift_sayi/cift_sayi.egg-info/top_level.txt
+reading manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'
+writing manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cift_sayi/subscriber_member_function.py -> /home/orhan/ros2_ws/build/cift_sayi/build/lib/cift_sayi
+copying cift_sayi/publisher_member_function.py -> /home/orhan/ros2_ws/build/cift_sayi/build/lib/cift_sayi
+running install
+running install_lib
+copying /home/orhan/ros2_ws/build/cift_sayi/build/lib/cift_sayi/subscriber_member_function.py -> /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi
+copying /home/orhan/ros2_ws/build/cift_sayi/build/lib/cift_sayi/publisher_member_function.py -> /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi
+byte-compiling /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+byte-compiling /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/cift_sayi/cift_sayi.egg-info to /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/orhan/ros2_ws/install/cift_sayi/lib/cift_sayi
+Installing talker script to /home/orhan/ros2_ws/install/cift_sayi/lib/cift_sayi
+writing list of installed files to '/home/orhan/ros2_ws/build/cift_sayi/install.log'

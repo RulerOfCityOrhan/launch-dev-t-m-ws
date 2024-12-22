@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target publish_address_book[0m
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 24%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Built target more_interfaces__rosidl_typesupport_c
+[ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target more_interfaces[0m
+[ 69%] Built target more_interfaces
+[35m[1mScanning dependencies of target more_interfaces__py[0m
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] Built target more_interfaces__py

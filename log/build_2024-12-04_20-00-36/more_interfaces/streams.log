@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.081s] [35m[1mScanning dependencies of target publish_address_book[0m
+[0.104s] [  6%] Built target more_interfaces__cpp
+[0.104s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.124s] [ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.130s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.137s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.144s] [ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.401s] [01m[K/home/orhan/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/AddressBook.hpp: No such file or directory
+[0.401s]     5 | #include [01;31m[K"more_interfaces/msg/AddressBook.hpp"[m[K
+[0.401s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.402s] compilation terminated.
+[0.408s] make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[0.408s] make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/publish_address_book.dir/all] Error 2
+[0.409s] make[1]: *** Waiting for unfinished jobs....
+[0.657s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.664s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.682s] [ 27%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[0.692s] [ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[0.706s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[0.730s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[1.295s] [ 36%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.330s] [ 39%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.358s] [ 42%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[1.446s] [ 42%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.453s] [ 42%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.462s] [ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.463s] make: *** [Makefile:141: all] Error 2
+[1.466s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4

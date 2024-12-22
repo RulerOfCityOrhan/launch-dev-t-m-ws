@@ -1,0 +1,4 @@
+[console_scripts]
+listener = cift_sayi.subscriber_member_function:main
+talker = cift_sayi.publisher_member_function:main
+

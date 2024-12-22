@@ -1,0 +1,39 @@
+[1.039s] Invoking command in '/home/orhan/ros2_ws/src/tti_deneme': PYTHONPATH=/home/orhan/ros2_ws/build/tti_deneme/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tti_deneme build --build-base /home/orhan/ros2_ws/build/tti_deneme/build install --record /home/orhan/ros2_ws/build/tti_deneme/install.log --install-scripts $base/lib/tti_deneme --single-version-externally-managed install_data
+[1.384s] running egg_info
+[1.385s] creating ../../build/tti_deneme/tti_deneme.egg-info
+[1.385s] writing ../../build/tti_deneme/tti_deneme.egg-info/PKG-INFO
+[1.386s] writing dependency_links to ../../build/tti_deneme/tti_deneme.egg-info/dependency_links.txt
+[1.386s] writing entry points to ../../build/tti_deneme/tti_deneme.egg-info/entry_points.txt
+[1.386s] writing requirements to ../../build/tti_deneme/tti_deneme.egg-info/requires.txt
+[1.386s] writing top-level names to ../../build/tti_deneme/tti_deneme.egg-info/top_level.txt
+[1.388s] writing manifest file '../../build/tti_deneme/tti_deneme.egg-info/SOURCES.txt'
+[1.432s] reading manifest file '../../build/tti_deneme/tti_deneme.egg-info/SOURCES.txt'
+[1.434s] writing manifest file '../../build/tti_deneme/tti_deneme.egg-info/SOURCES.txt'
+[1.434s] running build
+[1.434s] running build_py
+[1.435s] creating /home/orhan/ros2_ws/build/tti_deneme/build
+[1.435s] creating /home/orhan/ros2_ws/build/tti_deneme/build/lib
+[1.435s] creating /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme
+[1.435s] copying tti_deneme/publisher.py -> /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme
+[1.436s] copying tti_deneme/subscriber.py -> /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme
+[1.436s] copying tti_deneme/__init__.py -> /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme
+[1.436s] running install
+[1.437s] running install_lib
+[1.439s] creating /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme
+[1.439s] copying /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme/publisher.py -> /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme
+[1.439s] copying /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme/subscriber.py -> /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme
+[1.439s] copying /home/orhan/ros2_ws/build/tti_deneme/build/lib/tti_deneme/__init__.py -> /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme
+[1.440s] byte-compiling /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme/publisher.py to publisher.cpython-38.pyc
+[1.442s] byte-compiling /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme/subscriber.py to subscriber.cpython-38.pyc
+[1.443s] byte-compiling /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme/__init__.py to __init__.cpython-38.pyc
+[1.443s] running install_data
+[1.443s] creating /home/orhan/ros2_ws/install/tti_deneme/share/ament_index
+[1.444s] creating /home/orhan/ros2_ws/install/tti_deneme/share/ament_index/resource_index
+[1.444s] creating /home/orhan/ros2_ws/install/tti_deneme/share/ament_index/resource_index/packages
+[1.444s] copying resource/tti_deneme -> /home/orhan/ros2_ws/install/tti_deneme/share/ament_index/resource_index/packages
+[1.444s] copying package.xml -> /home/orhan/ros2_ws/install/tti_deneme/share/tti_deneme
+[1.445s] running install_egg_info
+[1.447s] Copying ../../build/tti_deneme/tti_deneme.egg-info to /home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages/tti_deneme-0.0.0-py3.8.egg-info
+[1.448s] running install_scripts
+[1.472s] writing list of installed files to '/home/orhan/ros2_ws/build/tti_deneme/install.log'
+[1.502s] Invoked command in '/home/orhan/ros2_ws/src/tti_deneme' returned '0': PYTHONPATH=/home/orhan/ros2_ws/build/tti_deneme/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/tti_deneme/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tti_deneme build --build-base /home/orhan/ros2_ws/build/tti_deneme/build install --record /home/orhan/ros2_ws/build/tti_deneme/install.log --install-scripts $base/lib/tti_deneme --single-version-externally-managed install_data

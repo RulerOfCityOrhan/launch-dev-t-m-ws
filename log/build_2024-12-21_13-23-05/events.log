@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000666] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000956] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001094] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.013385] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.014424] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/orhan/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/custom_interfaces'], 'cwd': '/home/orhan/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'tr:en'), ('USER', 'orhan'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1802'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orhan/udemy_ros/install/simple_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/orhan'), ('OLDPWD', '/home/orhan/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2392'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orhan/udemy_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orhan'), ('JOURNAL_STREAM', '8:49357'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/orhan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orhan-Inspiron-5548:@/tmp/.ICE-unix/1840,unix/orhan-Inspiron-5548:/tmp/.ICE-unix/1840'), ('INVOCATION_ID', '767adf674c734452a4f55dbbdc37ca28'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c12f07df-6f96-43d7-aa03-6f4342ea974b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orhan/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orhan/udemy_ros/install/rand_two_int/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/simple_interfaces/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/py_deneme/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/add_two_ints_srv/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy')]), 'shell': False}
+[0.099379] (-) TimerEvent: {}
+[0.106098] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.189331] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.196783] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199508] (-) TimerEvent: {}
+[0.299913] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.300173] (-) TimerEvent: {}
+[0.302004] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.397782] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400278] (-) TimerEvent: {}
+[0.416190] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.417031] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.420654] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500412] (-) TimerEvent: {}
+[0.533145] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.534711] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600528] (-) TimerEvent: {}
+[0.669051] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.685693] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.686544] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.693504] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.700647] (-) TimerEvent: {}
+[0.729853] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.730239] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800772] (-) TimerEvent: {}
+[0.901265] (-) TimerEvent: {}
+[1.001577] (-) TimerEvent: {}
+[1.043018] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.059410] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.067887] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.101707] (-) TimerEvent: {}
+[1.202112] (-) TimerEvent: {}
+[1.215634] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.259553] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.302241] (-) TimerEvent: {}
+[1.374361] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402383] (-) TimerEvent: {}
+[1.462303] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.502507] (-) TimerEvent: {}
+[1.602896] (-) TimerEvent: {}
+[1.680646] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.703024] (-) TimerEvent: {}
+[1.803427] (-) TimerEvent: {}
+[1.816176] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.826564] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.864246] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.866204] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.903528] (-) TimerEvent: {}
+[1.906929] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.907533] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.907824] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.908074] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.942106] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.003644] (-) TimerEvent: {}
+[2.005033] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.033456] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.036770] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.039067] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.045934] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.088208] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.103098] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/orhan/ros2_ws/build/custom_interfaces\n'}
+[2.103659] (-) TimerEvent: {}
+[2.111300] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.112426] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[2.113654] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orhan/ros2_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/orhan/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'tr:en'), ('USER', 'orhan'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1802'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orhan/udemy_ros/install/simple_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/orhan'), ('OLDPWD', '/home/orhan/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2392'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orhan/udemy_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orhan'), ('JOURNAL_STREAM', '8:49357'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/orhan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orhan-Inspiron-5548:@/tmp/.ICE-unix/1840,unix/orhan-Inspiron-5548:/tmp/.ICE-unix/1840'), ('INVOCATION_ID', '767adf674c734452a4f55dbbdc37ca28'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c12f07df-6f96-43d7-aa03-6f4342ea974b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orhan/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orhan/udemy_ros/install/rand_two_int/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/simple_interfaces/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/py_deneme/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/add_two_ints_srv/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy')]), 'shell': False}
+[2.173120] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.173560] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[2.188939] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.203781] (-) TimerEvent: {}
+[2.304249] (-) TimerEvent: {}
+[2.404944] (-) TimerEvent: {}
+[2.505300] (-) TimerEvent: {}
+[2.605855] (-) TimerEvent: {}
+[2.634853] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.651839] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/triangle__functions.c.o\x1b[0m\n'}
+[2.655199] (custom_interfaces) StdoutLine: {'line': b'[  9%] Built target custom_interfaces__cpp\n'}
+[2.674323] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.674809] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.682615] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.705979] (-) TimerEvent: {}
+[2.791863] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.806098] (-) TimerEvent: {}
+[2.867818] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_generator_c\n'}
+[2.890922] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.906207] (-) TimerEvent: {}
+[3.006611] (-) TimerEvent: {}
+[3.107030] (-) TimerEvent: {}
+[3.207464] (-) TimerEvent: {}
+[3.242714] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.279185] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/triangle__type_support.cpp.o\x1b[0m\n'}
+[3.307583] (-) TimerEvent: {}
+[3.308724] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.355392] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/triangle__type_support.cpp.o\x1b[0m\n'}
+[3.380148] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.407697] (-) TimerEvent: {}
+[3.425789] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/triangle__type_support.cpp.o\x1b[0m\n'}
+[3.442974] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.469228] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/triangle__type_support.cpp.o\x1b[0m\n'}
+[3.507814] (-) TimerEvent: {}
+[3.560742] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.607945] (-) TimerEvent: {}
+[3.657374] (custom_interfaces) StdoutLine: {'line': b'[ 41%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[3.678530] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.708057] (-) TimerEvent: {}
+[3.808679] (-) TimerEvent: {}
+[3.909321] (-) TimerEvent: {}
+[4.009968] (-) TimerEvent: {}
+[4.110630] (-) TimerEvent: {}
+[4.211296] (-) TimerEvent: {}
+[4.304515] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.311416] (-) TimerEvent: {}
+[4.317058] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.411526] (-) TimerEvent: {}
+[4.494017] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.511636] (-) TimerEvent: {}
+[4.512833] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[4.593373] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.611761] (-) TimerEvent: {}
+[4.619103] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/triangle__type_support.c.o\x1b[0m\n'}
+[4.674088] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.698291] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.711881] (-) TimerEvent: {}
+[4.752716] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.812007] (-) TimerEvent: {}
+[4.843737] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.857568] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.912129] (-) TimerEvent: {}
+[5.012541] (-) TimerEvent: {}
+[5.112958] (-) TimerEvent: {}
+[5.213386] (-) TimerEvent: {}
+[5.220386] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.251813] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/triangle__type_support_c.cpp.o\x1b[0m\n'}
+[5.313512] (-) TimerEvent: {}
+[5.414117] (-) TimerEvent: {}
+[5.514706] (-) TimerEvent: {}
+[5.615120] (-) TimerEvent: {}
+[5.715532] (-) TimerEvent: {}
+[5.773181] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.815651] (-) TimerEvent: {}
+[5.899482] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.912658] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[5.915772] (-) TimerEvent: {}
+[5.931186] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[5.948911] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[5.964153] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.015878] (-) TimerEvent: {}
+[6.116394] (-) TimerEvent: {}
+[6.216774] (-) TimerEvent: {}
+[6.317171] (-) TimerEvent: {}
+[6.417551] (-) TimerEvent: {}
+[6.518036] (-) TimerEvent: {}
+[6.604280] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[6.618161] (-) TimerEvent: {}
+[6.619704] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[6.648186] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_triangle_s.c.o\x1b[0m\n'}
+[6.718272] (-) TimerEvent: {}
+[6.784423] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[6.818409] (-) TimerEvent: {}
+[6.846111] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__python\n'}
+[6.861290] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.866653] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.869587] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.900999] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.910556] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.916780] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.918519] (-) TimerEvent: {}
+[7.018915] (-) TimerEvent: {}
+[7.102971] (custom_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.106427] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.119051] (-) TimerEvent: {}
+[7.122098] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.178656] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.194166] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.219172] (-) TimerEvent: {}
+[7.224449] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.239095] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.240512] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[7.260012] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orhan/ros2_ws/build/custom_interfaces'], 'cwd': '/home/orhan/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'tr:en'), ('USER', 'orhan'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1802'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/orhan/udemy_ros/install/simple_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/orhan'), ('OLDPWD', '/home/orhan/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2392'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/orhan/udemy_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'orhan'), ('JOURNAL_STREAM', '8:49357'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'orhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/orhan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/orhan-Inspiron-5548:@/tmp/.ICE-unix/1840,unix/orhan-Inspiron-5548:/tmp/.ICE-unix/1840'), ('INVOCATION_ID', '767adf674c734452a4f55dbbdc37ca28'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c12f07df-6f96-43d7-aa03-6f4342ea974b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/orhan/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orhan/udemy_ros/install/rand_two_int/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/simple_interfaces/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/py_deneme/lib/python3.8/site-packages:/home/orhan/udemy_ros/install/add_two_ints_srv/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/orhan/udemy_ros/install/simple_interfaces:/home/orhan/udemy_ros/install/rand_two_int:/home/orhan/udemy_ros/install/py_deneme:/home/orhan/udemy_ros/install/add_two_ints_srv:/opt/ros/foxy')]), 'shell': False}
+[7.278896] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.280042] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[7.283100] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.283419] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[7.283644] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.286145] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.286452] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.286570] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__struct.h\n'}
+[7.286675] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__functions.c\n'}
+[7.286771] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__functions.h\n'}
+[7.286875] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__type_support.h\n'}
+[7.286980] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/triangle.h\n'}
+[7.287135] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[7.287340] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[7.287462] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[7.287646] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.287782] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.287925] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[7.288034] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.288128] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.288278] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.288374] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__rosidl_typesupport_fastrtps_c.h\n'}
+[7.288467] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.288559] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.288652] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.288747] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[7.288839] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.288935] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.289080] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.289288] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.289390] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[7.289597] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.289697] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.289836] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.289930] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[7.290033] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.290175] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.290275] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.290367] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__type_support.c\n'}
+[7.290458] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__rosidl_typesupport_introspection_c.h\n'}
+[7.290550] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.290925] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.291221] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[7.291816] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.292002] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.292266] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[7.292491] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.292609] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.292747] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.292892] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__struct.hpp\n'}
+[7.293032] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__traits.hpp\n'}
+[7.293144] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__type_support.hpp\n'}
+[7.293278] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__builder.hpp\n'}
+[7.293375] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/triangle.hpp\n'}
+[7.293589] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[7.293721] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[7.293858] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[7.293958] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.294052] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/triangle__type_support.cpp\n'}
+[7.294234] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.295009] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.295279] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.296026] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.296222] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[7.296470] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[7.298014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[7.319298] (-) TimerEvent: {}
+[7.341782] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[7.348786] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv\n'}
+[7.349067] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_triangle.py\n'}
+[7.349249] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py\n'}
+[7.349413] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_triangle_s.c\n'}
+[7.349916] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.350831] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.351238] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.352262] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.352644] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.353849] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.354387] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[7.354718] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/orhan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[7.354939] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Triangle.idl\n'}
+[7.355225] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Triangle.srv\n'}
+[7.355493] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Triangle_Request.msg\n'}
+[7.355777] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Triangle_Response.msg\n'}
+[7.356119] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[7.356485] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[7.356760] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[7.357019] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.357280] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[7.357536] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[7.357796] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[7.358049] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[7.358300] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[7.358556] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[7.358819] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[7.359152] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[7.359646] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.359899] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.360268] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.360559] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.360906] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.361178] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.361524] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.361886] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.362155] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.362507] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.362845] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.363124] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.363378] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.363676] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.363952] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.364216] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.364481] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.364771] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.365029] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[7.365210] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[7.365462] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/orhan/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[7.369167] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.414407] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[7.415550] (-) EventReactorShutdown: {}

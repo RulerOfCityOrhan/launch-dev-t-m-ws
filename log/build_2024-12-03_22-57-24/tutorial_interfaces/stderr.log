@@ -1,0 +1,21 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  if given arguments:
+
+    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+
+  Unknown arguments specified
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+  /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)
+  /opt/ros/foxy/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:1 (find_package)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

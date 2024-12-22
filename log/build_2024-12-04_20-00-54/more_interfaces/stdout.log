@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target publish_address_book[0m
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 24%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 33%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[ 54%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[ 57%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[ 60%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[ 66%] Built target more_interfaces__rosidl_typesupport_c
+[ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c

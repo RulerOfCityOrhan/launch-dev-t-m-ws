@@ -1,0 +1,20 @@
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 24%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Built target more_interfaces__rosidl_typesupport_c
+[ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 69%] Built target more_interfaces
+[ 72%] Built target more_interfaces__py
+[01m[K/home/orhan/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+    5 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/publish_address_book.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 78%] Built target more_interfaces__python
+make: *** [Makefile:141: all] Error 2

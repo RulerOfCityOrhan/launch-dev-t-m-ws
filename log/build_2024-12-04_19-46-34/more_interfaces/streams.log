@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake /home/orhan/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/more_interfaces
+[0.227s] -- The C compiler identification is GNU 9.4.0
+[0.393s] -- The CXX compiler identification is GNU 9.4.0
+[0.404s] -- Check for working C compiler: /usr/bin/cc
+[0.507s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.509s] -- Detecting C compiler ABI info
+[0.607s] -- Detecting C compiler ABI info - done
+[0.625s] -- Detecting C compile features
+[0.625s] -- Detecting C compile features - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++
+[0.744s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.746s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.873s] -- Detecting CXX compile features
+[0.873s] -- Detecting CXX compile features - done
+[0.884s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.942s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.943s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.293s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.324s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.508s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.557s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.693s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.745s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.890s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.892s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.892s] -- Configured cppcheck include dirs: 
+[1.892s] -- Configured cppcheck exclude dirs and/or files: 
+[1.894s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.894s] -- Configured cpplint exclude dirs and/or files: 
+[1.896s] -- Added test 'lint_cmake' to check CMake code style
+[1.898s] -- Added test 'uncrustify' to check C / C++ code style
+[1.899s] -- Configured uncrustify additional arguments: 
+[1.900s] -- Added test 'xmllint' to check XML markup files
+[1.905s] -- Configuring done
+[1.908s] -- Generating done
+[1.910s] -- Build files have been written to: /home/orhan/ros2_ws/build/more_interfaces
+[1.920s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake /home/orhan/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/more_interfaces
+[1.925s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4
+[1.982s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4
+[2.003s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --install /home/orhan/ros2_ws/build/more_interfaces
+[2.015s] -- Install configuration: ""
+[2.015s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[2.015s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[2.016s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[2.016s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[2.016s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[2.017s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[2.017s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[2.017s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[2.017s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[2.018s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[2.018s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[2.018s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[2.018s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.019s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[2.019s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[2.019s] -- Installing: /home/orhan/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[2.022s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --install /home/orhan/ros2_ws/build/more_interfaces

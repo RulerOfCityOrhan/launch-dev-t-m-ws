@@ -1,0 +1,20 @@
+[1.560s] Invoking command in '/home/orhan/ros2_ws/src/cift_sayi': PYTHONPATH=/home/orhan/ros2_ws/build/cift_sayi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cift_sayi build --build-base /home/orhan/ros2_ws/build/cift_sayi/build install --record /home/orhan/ros2_ws/build/cift_sayi/install.log --install-scripts $base/lib/cift_sayi --single-version-externally-managed install_data
+[2.143s] running egg_info
+[2.144s] writing ../../build/cift_sayi/cift_sayi.egg-info/PKG-INFO
+[2.145s] writing dependency_links to ../../build/cift_sayi/cift_sayi.egg-info/dependency_links.txt
+[2.145s] writing entry points to ../../build/cift_sayi/cift_sayi.egg-info/entry_points.txt
+[2.145s] writing requirements to ../../build/cift_sayi/cift_sayi.egg-info/requires.txt
+[2.145s] writing top-level names to ../../build/cift_sayi/cift_sayi.egg-info/top_level.txt
+[2.196s] reading manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'
+[2.197s] writing manifest file '../../build/cift_sayi/cift_sayi.egg-info/SOURCES.txt'
+[2.197s] running build
+[2.198s] running build_py
+[2.198s] running install
+[2.199s] running install_lib
+[2.201s] running install_data
+[2.202s] running install_egg_info
+[2.205s] removing '/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info' (and everything under it)
+[2.206s] Copying ../../build/cift_sayi/cift_sayi.egg-info to /home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages/cift_sayi-0.0.0-py3.8.egg-info
+[2.207s] running install_scripts
+[2.233s] writing list of installed files to '/home/orhan/ros2_ws/build/cift_sayi/install.log'
+[2.477s] Invoked command in '/home/orhan/ros2_ws/src/cift_sayi' returned '0': PYTHONPATH=/home/orhan/ros2_ws/build/cift_sayi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/cift_sayi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cift_sayi build --build-base /home/orhan/ros2_ws/build/cift_sayi/build install --record /home/orhan/ros2_ws/build/cift_sayi/install.log --install-scripts $base/lib/cift_sayi --single-version-externally-managed install_data

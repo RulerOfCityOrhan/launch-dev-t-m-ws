@@ -1,0 +1,4 @@
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/orhan/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".

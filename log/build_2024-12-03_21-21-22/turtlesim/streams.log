@@ -1,0 +1,19 @@
+[0.037s] Invoking command in '/home/orhan/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/turtlesim -- -j4 -l4
+[0.189s] [  1%] Built target turtlesim__cpp
+[0.203s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.273s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.286s] [ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.299s] [ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.310s] [ 51%] Built target turtlesim__rosidl_typesupport_c
+[0.346s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.369s] [ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.414s] [ 71%] Built target turtlesim
+[0.475s] [ 72%] Built target turtlesim__py
+[0.497s] [ 74%] Built target draw_square
+[0.498s] [ 76%] Built target mimic
+[0.540s] [ 78%] Built target turtle_teleop_key
+[0.561s] [ 87%] Built target turtlesim__python
+[0.609s] [ 93%] Built target turtlesim_node
+[0.621s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.637s] [ 97%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.642s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext

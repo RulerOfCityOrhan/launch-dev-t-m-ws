@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target publish_address_book[0m
+[  6%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 24%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[01m[K/home/orhan/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/AddressBook.hpp: No such file or directory
+    5 | #include [01;31m[K"more_interfaces/msg/AddressBook.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/publish_address_book.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 39%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 42%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[ 42%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 42%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+make: *** [Makefile:141: all] Error 2

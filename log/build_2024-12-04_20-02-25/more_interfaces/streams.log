@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/orhan/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4
+[0.109s] [  3%] Built target more_interfaces__cpp
+[0.113s] [  9%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.113s] [ 15%] Built target more_interfaces__rosidl_generator_c
+[0.158s] [ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.158s] [ 33%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.170s] [ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.202s] [ 51%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.211s] [ 60%] Built target more_interfaces__rosidl_typesupport_c
+[0.221s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.255s] [ 69%] Built target more_interfaces
+[0.283s] [ 72%] Built target more_interfaces__py
+[0.317s] [01m[K/home/orhan/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+[0.317s]     5 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+[0.318s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.318s] compilation terminated.
+[0.320s] [ 78%] Built target more_interfaces__python
+[0.321s] make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[0.321s] make[1]: *** [CMakeFiles/Makefile2:364: CMakeFiles/publish_address_book.dir/all] Error 2
+[0.321s] make[1]: *** Waiting for unfinished jobs....
+[0.321s] make: *** [Makefile:141: all] Error 2
+[0.324s] Invoked command in '/home/orhan/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orhan/ros2_ws/install/tti_deneme:/home/orhan/ros2_ws/install/py_srvcli:/home/orhan/ros2_ws/install/iki:/home/orhan/ros2_ws/install/first_package:/home/orhan/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/orhan/ros2_ws/install/examples_rclpy_minimal_service:/home/orhan/ros2_ws/install/examples_rclpy_minimal_publisher:/home/orhan/ros2_ws/install/examples_rclpy_minimal_client:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_server:/home/orhan/ros2_ws/install/examples_rclpy_minimal_action_client:/home/orhan/ros2_ws/install/examples_rclpy_executors:/home/orhan/ros2_ws/install/cift_sayi:/opt/ros/foxy /usr/bin/cmake --build /home/orhan/ros2_ws/build/more_interfaces -- -j4 -l4

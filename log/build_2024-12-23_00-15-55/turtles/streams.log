@@ -1,0 +1,37 @@
+[2.349s] Invoking command in '/home/orhan/ros2_ws/src/turtles': PYTHONPATH=/home/orhan/ros2_ws/build/turtles/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtles build --build-base /home/orhan/ros2_ws/build/turtles/build install --record /home/orhan/ros2_ws/build/turtles/install.log --install-scripts $base/lib/turtles --single-version-externally-managed install_data
+[2.991s] running egg_info
+[2.993s] creating ../../build/turtles/turtles.egg-info
+[2.994s] writing ../../build/turtles/turtles.egg-info/PKG-INFO
+[2.996s] writing dependency_links to ../../build/turtles/turtles.egg-info/dependency_links.txt
+[2.998s] writing entry points to ../../build/turtles/turtles.egg-info/entry_points.txt
+[2.998s] writing requirements to ../../build/turtles/turtles.egg-info/requires.txt
+[2.998s] writing top-level names to ../../build/turtles/turtles.egg-info/top_level.txt
+[3.001s] writing manifest file '../../build/turtles/turtles.egg-info/SOURCES.txt'
+[3.099s] reading manifest file '../../build/turtles/turtles.egg-info/SOURCES.txt'
+[3.101s] writing manifest file '../../build/turtles/turtles.egg-info/SOURCES.txt'
+[3.104s] running build
+[3.105s] running build_py
+[3.106s] creating /home/orhan/ros2_ws/build/turtles/build
+[3.106s] creating /home/orhan/ros2_ws/build/turtles/build/lib
+[3.106s] creating /home/orhan/ros2_ws/build/turtles/build/lib/turtles
+[3.107s] copying turtles/turtles.py -> /home/orhan/ros2_ws/build/turtles/build/lib/turtles
+[3.109s] copying turtles/__init__.py -> /home/orhan/ros2_ws/build/turtles/build/lib/turtles
+[3.110s] running install
+[3.110s] running install_lib
+[3.110s] creating /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles
+[3.111s] copying /home/orhan/ros2_ws/build/turtles/build/lib/turtles/turtles.py -> /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles
+[3.111s] copying /home/orhan/ros2_ws/build/turtles/build/lib/turtles/__init__.py -> /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles
+[3.115s] byte-compiling /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles/turtles.py to turtles.cpython-38.pyc
+[3.117s] byte-compiling /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles/__init__.py to __init__.cpython-38.pyc
+[3.119s] running install_data
+[3.119s] creating /home/orhan/ros2_ws/install/turtles/share/ament_index
+[3.119s] creating /home/orhan/ros2_ws/install/turtles/share/ament_index/resource_index
+[3.119s] creating /home/orhan/ros2_ws/install/turtles/share/ament_index/resource_index/packages
+[3.120s] copying resource/turtles -> /home/orhan/ros2_ws/install/turtles/share/ament_index/resource_index/packages
+[3.120s] copying package.xml -> /home/orhan/ros2_ws/install/turtles/share/turtles
+[3.120s] running install_egg_info
+[3.127s] Copying ../../build/turtles/turtles.egg-info to /home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages/turtles-0.0.0-py3.8.egg-info
+[3.131s] running install_scripts
+[3.180s] Installing turtles script to /home/orhan/ros2_ws/install/turtles/lib/turtles
+[3.180s] writing list of installed files to '/home/orhan/ros2_ws/build/turtles/install.log'
+[3.243s] Invoked command in '/home/orhan/ros2_ws/src/turtles' returned '0': PYTHONPATH=/home/orhan/ros2_ws/build/turtles/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orhan/ros2_ws/install/turtles/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtles build --build-base /home/orhan/ros2_ws/build/turtles/build install --record /home/orhan/ros2_ws/build/turtles/install.log --install-scripts $base/lib/turtles --single-version-externally-managed install_data

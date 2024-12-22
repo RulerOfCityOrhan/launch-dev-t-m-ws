@@ -1,0 +1,60 @@
+[0.018s] Invoking command in '/home/orhan/ros2_ws/build/tutorial_interfaces': /usr/bin/cmake /home/orhan/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tutorial_interfaces
+[0.103s] -- The C compiler identification is GNU 9.4.0
+[0.179s] -- The CXX compiler identification is GNU 9.4.0
+[0.189s] -- Check for working C compiler: /usr/bin/cc
+[0.291s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.292s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.411s] -- Detecting C compile features
+[0.411s] -- Detecting C compile features - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.527s] -- Detecting CXX compiler ABI info
+[0.641s] -- Detecting CXX compiler ABI info - done
+[0.661s] -- Detecting CXX compile features
+[0.661s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.036s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.117s] Error parsing '/home/orhan/ros2_ws/src/tutorial_interfaces/package.xml':
+[1.292s] Traceback (most recent call last):
+[1.292s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.293s]     root = dom.parseString(data)
+[1.293s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.293s]     return expatbuilder.parseString(string)
+[1.293s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.293s]     return builder.parseString(string)
+[1.293s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.293s]     parser.Parse(string, True)
+[1.293s] xml.parsers.expat.ExpatError: junk after document element: line 19, column 0
+[1.293s] 
+[1.293s] During handling of the above exception, another exception occurred:
+[1.293s] 
+[1.294s] Traceback (most recent call last):
+[1.294s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.294s]     main()
+[1.294s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.294s]     raise e
+[1.294s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.294s]     package = parse_package_string(
+[1.294s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.294s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.294s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/orhan/ros2_ws/src/tutorial_interfaces/package.xml':
+[1.294s] The manifest contains invalid XML:
+[1.295s] junk after document element: line 19, column 0
+[1.325s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.325s]   execute_process(/usr/bin/python3
+[1.325s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.325s]   /home/orhan/ros2_ws/src/tutorial_interfaces/package.xml
+[1.325s]   /home/orhan/ros2_ws/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[1.325s]   returned error code 1
+[1.325s] Call Stack (most recent call first):
+[1.325s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.326s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.326s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.326s] 
+[1.326s] 
+[1.326s] -- Configuring incomplete, errors occurred!
+[1.326s] See also "/home/orhan/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.331s] Invoked command in '/home/orhan/ros2_ws/build/tutorial_interfaces' returned '1': /usr/bin/cmake /home/orhan/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tutorial_interfaces

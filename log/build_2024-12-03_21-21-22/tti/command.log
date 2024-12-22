@@ -1,0 +1,2 @@
+Invoking command in '/home/orhan/ros2_ws/build/tti': /usr/bin/cmake /home/orhan/ros2_ws/src/tti -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tti
+Invoked command in '/home/orhan/ros2_ws/build/tti' returned '1': /usr/bin/cmake /home/orhan/ros2_ws/src/tti -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tti

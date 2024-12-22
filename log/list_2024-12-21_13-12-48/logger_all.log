@@ -1,0 +1,76 @@
+[1.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/orhan/ros2_ws']
+[1.137s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/orhan/ros2_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fec8c0f2610>>, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('list',), names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fec8c0f2610>, verb_name='list', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fec8c085a30>)
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.148s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orhan/ros2_ws'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'ros'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['cmake', 'python']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'cmake'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'python'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extensions ['python_setup_py']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws) by extension 'python_setup_py'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/build) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/build) ignored
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/install) by extension 'ignore'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/install) ignored
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/log) by extension 'ignore'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/log) ignored
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'ignore'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'ignore_ament_install'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['colcon_pkg']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'colcon_pkg'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['colcon_meta']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'colcon_meta'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['ros']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'ros'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['cmake', 'python']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'cmake'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'python'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extensions ['python_setup_py']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src) by extension 'python_setup_py'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'colcon_meta'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['ros']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'ros'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'cmake'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'python'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials) by extension 'python_setup_py'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/ros_tutorials) ignored
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/orhan/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[2.247s] DEBUG:colcon.colcon_core.package_identification:Package '/home/orhan/ros2_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[2.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

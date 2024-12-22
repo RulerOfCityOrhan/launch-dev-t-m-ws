@@ -1,0 +1,45 @@
+[0.030s] Invoking command in '/home/orhan/ros2_ws/build/tti': /usr/bin/cmake /home/orhan/ros2_ws/src/tti -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tti
+[0.071s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.675s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.819s] Error parsing '/home/orhan/ros2_ws/src/tti/package.xml':
+[1.123s] Traceback (most recent call last):
+[1.124s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.124s]     root = dom.parseString(data)
+[1.124s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.124s]     return expatbuilder.parseString(string)
+[1.124s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.125s]     return builder.parseString(string)
+[1.125s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.125s]     parser.Parse(string, True)
+[1.125s] xml.parsers.expat.ExpatError: junk after document element: line 19, column 0
+[1.125s] 
+[1.126s] During handling of the above exception, another exception occurred:
+[1.126s] 
+[1.126s] Traceback (most recent call last):
+[1.126s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.126s]     main()
+[1.127s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.127s]     raise e
+[1.127s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.127s]     package = parse_package_string(
+[1.127s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.127s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.128s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/orhan/ros2_ws/src/tti/package.xml':
+[1.128s] The manifest contains invalid XML:
+[1.128s] junk after document element: line 19, column 0
+[1.171s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.171s]   execute_process(/usr/bin/python3
+[1.171s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.171s]   /home/orhan/ros2_ws/src/tti/package.xml
+[1.172s]   /home/orhan/ros2_ws/build/tti/ament_cmake_core/package.cmake) returned
+[1.172s]   error code 1
+[1.172s] Call Stack (most recent call first):
+[1.172s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.172s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.173s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.173s] 
+[1.173s] 
+[1.173s] -- Configuring incomplete, errors occurred!
+[1.173s] See also "/home/orhan/ros2_ws/build/tti/CMakeFiles/CMakeOutput.log".
+[1.179s] Invoked command in '/home/orhan/ros2_ws/build/tti' returned '1': /usr/bin/cmake /home/orhan/ros2_ws/src/tti -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/tti

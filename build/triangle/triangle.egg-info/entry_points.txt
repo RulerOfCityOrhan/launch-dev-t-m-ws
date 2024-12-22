@@ -1,0 +1,5 @@
+[console_scripts]
+triall = triangle.tri_all:main
+tricli = triangle.tri_client:main
+trisrv = triangle.tri_service:main
+

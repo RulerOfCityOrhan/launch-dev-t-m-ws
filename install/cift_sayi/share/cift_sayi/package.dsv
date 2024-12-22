@@ -1,0 +1,6 @@
+source;share/cift_sayi/hook/pythonpath.ps1
+source;share/cift_sayi/hook/pythonpath.dsv
+source;share/cift_sayi/hook/pythonpath.sh
+source;share/cift_sayi/hook/ament_prefix_path.ps1
+source;share/cift_sayi/hook/ament_prefix_path.dsv
+source;share/cift_sayi/hook/ament_prefix_path.sh

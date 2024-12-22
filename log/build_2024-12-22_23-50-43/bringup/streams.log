@@ -1,0 +1,50 @@
+[0.045s] Invoking command in '/home/orhan/ros2_ws/build/bringup': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orhan/ros2_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/bringup
+[0.177s] -- The C compiler identification is GNU 9.4.0
+[0.299s] -- The CXX compiler identification is GNU 9.4.0
+[0.310s] -- Check for working C compiler: /usr/bin/cc
+[0.475s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.477s] -- Detecting C compiler ABI info
+[0.742s] -- Detecting C compiler ABI info - done
+[0.792s] -- Detecting C compile features
+[0.792s] -- Detecting C compile features - done
+[0.805s] -- Check for working CXX compiler: /usr/bin/c++
+[1.252s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.254s] -- Detecting CXX compiler ABI info
+[1.528s] -- Detecting CXX compiler ABI info - done
+[1.589s] -- Detecting CXX compile features
+[1.590s] -- Detecting CXX compile features - done
+[1.607s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.708s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.710s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.611s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.827s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.835s] -- Added test 'lint_cmake' to check CMake code style
+[2.837s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.838s] -- Added test 'xmllint' to check XML markup files
+[2.844s] -- Configuring done
+[2.852s] -- Generating done
+[2.853s] -- Build files have been written to: /home/orhan/ros2_ws/build/bringup
+[2.869s] Invoked command in '/home/orhan/ros2_ws/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/orhan/ros2_ws/src/bringup -DCMAKE_INSTALL_PREFIX=/home/orhan/ros2_ws/install/bringup
+[2.871s] Invoking command in '/home/orhan/ros2_ws/build/bringup': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orhan/ros2_ws/build/bringup -- -j4 -l4
+[2.973s] Invoked command in '/home/orhan/ros2_ws/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orhan/ros2_ws/build/bringup -- -j4 -l4
+[2.979s] Invoking command in '/home/orhan/ros2_ws/build/bringup': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orhan/ros2_ws/build/bringup
+[3.004s] -- Install configuration: ""
+[3.004s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/launch
+[3.006s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/launch/homework.launch.py
+[3.009s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+[3.010s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+[3.010s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+[3.010s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+[3.010s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/environment/path.sh
+[3.010s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/environment/path.dsv
+[3.011s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/local_setup.bash
+[3.011s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/local_setup.sh
+[3.011s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/local_setup.zsh
+[3.011s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/local_setup.dsv
+[3.012s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/package.dsv
+[3.012s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+[3.012s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+[3.012s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+[3.013s] -- Installing: /home/orhan/ros2_ws/install/bringup/share/bringup/package.xml
+[3.033s] Invoked command in '/home/orhan/ros2_ws/build/bringup' returned '0': AMENT_PREFIX_PATH=/home/orhan/ros2_ws/install/triangle:/home/orhan/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orhan/ros2_ws/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/orhan/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orhan/ros2_ws/install/triangle/lib/python3.8/site-packages:/home/orhan/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orhan/ros2_ws/build/bringup
